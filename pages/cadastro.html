@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Web Cursos on</title>
+    <link rel="stylesheet" href="../css/cadastro.css" type="text/css">
+    <script src="../js/estilo.js"></script>
+</head>
+<body>
+    <!-- Inicio Cabeçalho -->  
+    <header>
+        <div onclick="logo()" id="logo">
+            <img src="../img/logo.png" alt="">
+            <p> <span class="amarelo">Web</span> <span class="azul"> Cursos </span> <span class="vermelho">On</span></p>
+        </div>
+    </header>
+    <!-- Fim Cabeçalho -->  
+    <main>
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <form action="">
+                <label for=""> Primeiro Nome </label>
+                <input type="text" placeholder="Escreva seu primeiro nome">
+                <label for=""> Sobre Nome </label>
+                <input type="text" placeholder="Escreva seu sobre nome">
+                <label for=""> Nome de Usuario </label>
+                <input type="text" placeholder="Cria seu nome de usuario">
+                <label for=""> Data de nascimento </label>
+                <input type="date" name="" id="data">
+                <label for=""> E-mail </label>
+                <input type="email" name="" placeholder="exemplo@gmail.com" id="">
+                <label for=""> Senha </label>
+                <input type="password" name="" placeholder="Cria a sua senha" id="">
+                <label for=""> Confirmar Senha </label>
+                <input type="password" name="" placeholder="Rescreva sua senha" id="">
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend> Dados Academicos </legend>
+            <form action="">
+                <label for="">O que você gosta ?</label>
+                <input class="escolha" type="checkbox" name="" id=""> Java
+                <input class="escolha" type="checkbox" name="" id=""> JavaScript <br>
+                <input class="escolha" type="checkbox" name="" id=""> C++
+                <input class="escolha" type="checkbox" name="" id=""> HTML <br>
+                <input class="escolha" type="checkbox" name="" id=""> CSS
+                <input class="escolha c1" type="checkbox" name="" id="outro"> Outros
+                <label for=""> Nivel Academico </label>
+                <input class="escolha" type="radio" name="nivel" id=""> Ensino Fundamental <br>
+                <input class="escolha" type="radio" name="nivel" id=""> Ensino Medio <br>
+                <input class="escolha" type="radio" name="nivel" id=""> Bacharel <br>
+                <input class="escolha" type="radio" name="nivel" id=""> Univercitario <br>
+                <input class="escolha" type="radio" name="nivel" id=""> Outro
+                <label for=""> Area de Formação</label>
+                <input type="text">
+            </form>
+        </fieldset>
+        <form id="submeter" action="">
+            <input type="button" value="Criar Conta">
+            <a class="azul" href="entrar.html">Já tenho uma conta</a>
+        </form>
+    </main>
+    <footer class="limparFloat azul" id="rodape">
+        &copy; Web Cursos on - Todos direitos reservados
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+article{
+    width: 80%;
+}
+#curso{
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    margin: auto;
+    border-left: 10px solid #FBD303;
+    margin-bottom: 30px;
+    border-top-right-radius: 60px;
+}
+#curso p{
+    margin: 5px;
+}
+#curso ul{
+    margin-left: 40px;
+}
+#curso div{
+    width: 85%;
+    margin: auto;
+}
+article{
+    width: 71.32%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+article section{
+    float: left;
+    width: 400px;
+    background-color: #fff;
+    border-top: #FBD303 10px solid;
+    border-radius: 0px 0px 30px 30px;
+    margin: 10px 1.5% 10px 0px;
+}
+article section img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+article section h4{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+article section p{
+    margin-left: 30px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    background-image: url("../img/clock-2x.png");
+    background-position: 2px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+article section a{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: #4485C5 3px solid;
+    text-decoration: none;
+    border-radius: 30px;
+}
+@media (max-width: 1590px){
+    article{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 1778px){
+    article {
+        width: 49%;
+    }
+}
+@media (max-width: 1698px){
+    article {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 1200px){
+    article{
+        width: 70%;
+        margin: auto;
+    }
+}

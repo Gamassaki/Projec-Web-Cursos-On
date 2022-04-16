@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo de Progamação - Web Cursos on</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="../css/aula.css" type="text/css">
+    <script src="../js/estilo.js"></script>
+</head>
+<body>
+    <!-- Inicio Cabeçalho -->  
+    <header id="cabeca">
+        <div onclick="logo()" id="logo">
+            <img src="../img/logo.png" alt="">
+            <p> <span class="amarelo">Web</span> <span class="azul"> Cursos </span> <span class="vermelho">On</span></p>
+        </div>
+        <div onclick="dropResp()" id="drop">
+            <img src="../img/list-6x.png" alt="">
+        </div>
+        <nav id="navTop" class="w1">
+            <ul class="uu">
+                <li class="principal">
+                    <a href="../index.html">Pagina Inicial</a>
+                </li>
+                <li class="principal">
+                    <a onclick="subMenu()" href="#" >Cursos <img id="expand" src="../img/expand-down-2x.png" alt=""></a>
+                    <ul id="subMenu" class="subMenu1">
+                        <li>
+                            <a href="curso_gratis.html">Cursos Gratis</a>
+                        </li>
+                        <li>
+                            <a href="curso_pagos.html">Cursos Pagos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="ulti" class="principal">
+                    <a href="#rodape">Contacte-nos</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="limparFloat"></div>
+    </header>
+    <!-- Fim Cabeçalho -->  
+
+    <div id="texto_separacao">
+        <p class="azul"> <i>" Aprenda com o nosso pessoal e seja um profissional !!! "</i> </p>
+    </div>
+
+    <!-- Inicio Area Lateral -->
+    <aside>
+        <h3>Algoritmo de Progamação</h3>
+        <ol>
+            <li>
+                <a href="algoritimodeprogamacao.html">Aula 1 - Para que aprender algoritmo</a>
+            </li>
+            <li>
+                <a href="aula2.html">Aula 2 - O meu primeiro algoritimo </a>
+            </li>
+            <li>
+                <a href=""> Aula 3 - Tecnicas </a>
+            </li>
+            <li>
+                <a href="">Aula 4 - Melhorar o algoritmo</a>
+            </li>
+            <li>
+                <a href="">Aula 5 - Continuação </a>
+            </li>
+            <li>
+                <a href="">Aula 6 - </a>
+            </li>
+            <li>
+                <a href="">Aula 7 - </a>
+            </li>
+            <li>
+                <a href="">Aula 8 - </a>
+            </li>
+            <li>
+                <a href="">Aula 9 - Fim </a>
+            </li>
+        </ol>
+    </aside>
+    <!-- Fim Area Lateral-->
+
+    <!-- Inicio Corpo -->
+    <main id="aula">
+        <h3 class="vermelho">Aula 2 - O meu primeiro algoritimo </h3>
+        <video controls>
+            <source type="video/mp4" src="../aulas/curso_gratis/Aula2.MP4">
+            Seu navegador não suporta o video.
+        </video>
+        <a href="algoritimodeprogamacao.html">Anterior</a>
+        <a href="">Proximo</a>
+    </main>
+    <!-- Fim Corpo -->  
+
+    <!-- Rodape -->
+    <footer class="limparFloat" id="rodape">
+        <div id="caixa">
+            <div id="contato">
+                <img id="telefone" src="../img/telefone-icone.png" alt="Telefone">
+                <p>(244) 941415441</p>
+                <p>(244) 991415441</p>
+                <br>
+                <img id="caixaemail" src="../img/caixa-email.png" alt="Caixa de E-mail">
+                <p class="ix">gamassaki05@gmail.com</p>
+            </div>
+            <div id="termos">
+                <a class="preto" href="">Politica e Privacidade</a>
+                <a class="preto" href="">Central de ajuda</a>
+            </div>
+        </div>
+        <div id="midiasocial">
+            <p class="azul">Midias Socias</p>
+            <img src="../img/facebook.png" alt="Facebook">
+            <img src="../img/youtube.png" alt="Youtube">
+            <img src="../img/linkin.png" alt="Linkind">
+        </div>
+        <div id="reserva">
+            &copy; Web Cursos on - Todos direitos reservados
+        </div>
+    </footer>      
+</body>
+</html>

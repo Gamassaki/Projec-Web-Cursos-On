@@ -1,0 +1,64 @@
+aside{
+    padding: 20px;
+    background-color: #fff;
+    border-top: 10px solid #FBD303;
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 9.5%;
+    float: left;
+}
+aside ol{
+    margin-left: 20px;
+}
+aside li{
+    margin: 5px;
+}
+aside li a{
+    color: #4485C5;
+}
+#aula{
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+    border-top: #FBD303 10px solid;
+    margin-bottom: 30px;
+    margin-right: 9.5%;
+    float: right;
+}
+video{
+    outline-style: dotted;
+    margin-left: 2%;
+    width: 95%;
+    margin: 20px  0px 20px 0px;
+}
+main a{
+    text-decoration: none;
+    width: 100px;
+    padding: 5px;
+    color: #FF553E;
+    margin-right: 15px;
+    border: 2px solid #FF553E;
+    border-radius: 20px;
+}
+main a.desbilitar{
+    pointer-events: none;
+    color: #000;
+    cursor: default;
+    border: 2px solid black;
+}
+@media (max-width: 1100px){
+    #aula{
+        float: none;
+        margin: auto;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    aside{
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+
+}

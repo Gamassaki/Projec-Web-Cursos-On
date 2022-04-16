@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial - Web Cursos on</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <script src="js/estilo.js"></script>
+</head>
+<body>
+    <!-- Inicio Cabeçalho -->  
+    <header id="cabeca">
+        <div onclick="logo()" id="logo">
+            <img src="img/logo.png" alt="">
+            <p> <span class="amarelo">Web</span> <span class="azul"> Cursos </span> <span class="vermelho">On</span></p>
+        </div>
+        <div onclick="dropResp()" id="drop">
+            <img src="img/list-6x.png" alt="">
+        </div>
+        <nav id="navTop" class="w1">
+            <ul class="uu">
+                <li class="principal">
+                    <a href="index.html">Pagina Inicial</a>
+                </li>
+                <li class="principal">
+                    <a onclick="subMenu()" href="#" >Cursos <img id="expand" src="img/expand-down-2x.png" alt=""></a>
+                    <ul id="subMenu" class="subMenu1">
+                        <li>
+                            <a href="pages/curso_gratis.html">Cursos Gratis</a>
+                        </li>
+                        <li>
+                            <a href="pages/curso_pagos.html">Cursos Pagos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="ulti" class="principal">
+                    <a href="#rodape">Contacte-nos</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="limparFloat"></div>
+    </header>
+    <!-- Fim Cabeçalho -->  
+
+    <!-- Inicio COrpo -->
+    <main>
+        <div id="texto_separacao">
+            <p class="azul"> <i>" Aprenda com o nosso pessoal e seja um profissional !!! "</i> </p>
+        </div>
+        <section id="sobre">
+            <div>
+                <h2 class="azul">Sobre Nós</h2>
+                <hr>
+                <p>Somos Uma empresa que disponiblisa varios cursos de progamação que leciona a mais de 10 anos, cursos como logica de alg9oritimo de progamação, HTML com CSS e javaScript.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit ab placeat est quisquam veritatis natus, alias pariatur quia cumque magnam doloribus a numquam sapiente maiores, dolor veniam eos reiciendis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est cumque ut velit et, eum optio dolores, ducimus fugiat, libero tempore error doloribus ipsa dolorum tenetur repellendus voluptas dolore animi quo.</p>
+                <br>
+                <a href="pages/sobrenos.html" class="vermelho"><i>Ler mais</i></a>
+            </div>
+            <figure>
+                <img src="img/pc.png" alt="computador">
+            </figure>
+        </section>
+        <div class="limparFloat"></div>
+        <section id="cadastro">
+            <img onclick="window.location.href = 'entrar.html'" src="img/icone-usuario.png" alt="">
+            <p><a class="vermelho" href="pages/entrar.html">Entra</a> na sua conta ou <a class="vermelho" href="pages/cadastro.html">Cria</a> uma conta</p>
+            <p>Inicia seus cursos</p>
+        </section>
+        <article id="artigos">
+            <h2 class="azul">Destaques</h2>
+            <hr>
+            <section>
+                <div>
+                    <a class="preto" href="pages/html_css_javascript.htm"><h4>HTML CSS JavaScript</h4></a>
+                    <p>Curso do desenvolvedor Front End, basico ao avançado com html css e javaScript. </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/curso1.png" alt="COmputador curso">
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <a class="preto" href="pages/php.html"><h4>PHP</h4></a>
+                    <p>Curso do desenvolvedor Front End, basico ao avançado com html css e javaScript. </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/curso2.png" alt="COmputador curso">
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <a class="preto" href="pages/algoritimodeprogamacao.html"><h4>Algorito de Progamação</h4></a>
+                    <p>Logica de algoritimos, os passos iniciais na progamação. </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/curso3.png" alt="COmputador curso">
+                    </figure>
+                </div>
+            </section>
+        </article>
+        <section class="limparFloat" id="habilidades">
+            <figure>
+                <img src="img/progamador.png" alt="">
+            </figure>
+            <div>
+                <p>" Aumente suas habilidades de progamação"</p>
+            </div>
+        </section>
+        <section id="informar">
+            <div>
+                <h4>Preciso pagar para fazer algum curso ?</h4>
+                <p class="c2">Na Web Cursos On temos duas categorias de cursos, temos cursos completamente gratis para si e cursos que precisam de uma taxa para poder ser feito.</p>
+            </div>
+            <div >
+                <h4>Os Cursos têm horário fixo ?</h4>
+                <p class="c1" >Não, você pode estudar conforme a sua disponibilidade de tempo. O Web Cursos On fica disponivel 24 horas do dia.</p>
+            </div>
+            <div >
+                <h4>Os Cursos têm certificados ?</h4>
+                <p class="c1" >Sim, todos os cursoa na Web Cursos On têm direito a certificados reconhecidos em todo territorio nacional.</p>
+            </div>
+            <div >
+                <h4>Os Cursos têm horário fixo ?</h4>
+                <p class="c1" >Não, você pode estudar conforme a sua disponibilidade de tempo. O Web Cursos On fica disponivel 24 horas do dia.</p>
+            </div>
+        </section>
+    </main>
+    <!-- Fim Corpo -->  
+
+    <!-- Rodape -->
+    <footer class="limparFloat" id="rodape">
+        <div id="caixa">
+            <div id="contato">
+                <img id="telefone" src="img/telefone-icone.png" alt="Telefone">
+                <p>(244) 941415441</p>
+                <p>(244) 991415441</p>
+                <br>
+                <img id="caixaemail" src="img/caixa-email.png" alt="Caixa de E-mail">
+                <p class="ix">gamassaki05@gmail.com</p>
+            </div>
+            <div id="termos">
+                <a class="preto" href="">Politica e Privacidade</a>
+                <a class="preto" href="">Central de ajuda</a>
+            </div>
+        </div>
+        <div id="midiasocial">
+            <p class="azul">Midias Socias</p>
+            <img onclick="window.location.href ='facebook.com'" src="img/facebook.png" alt="Facebook">
+            <img onclick="window.location.href ='youtube.com'" src="img/youtube.png" alt="Youtube">
+            <img onclick="window.location.href ='Linkedin.com'" src="img/linkin.png" alt="Linkind">
+        </div>
+        <div id="reserva">
+            &copy; Web Cursos on - Todos direitos reservados
+        </div>
+    </footer>      
+</body>
+</html>
